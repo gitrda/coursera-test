@@ -4,21 +4,48 @@
 
 body {
     color: #000;
-    background-color: #ccc;
+    background-color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 header {
     text-align: center;
     background-color: rgba(255,255,255, 0.5);
+    margin-bottom: 30px;
 
 }
 
 .content {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: orange;
-    border-radius: 10px;
+    border: 2px solid black;
+    background-color: gray;
 }
+
+.content h2 {
+    margin: 0;
+    width: 150px;
+    float: right;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#d1 {
+    background-color: pink;
+}
+
+#d2 {
+    background-color: brown;
+    color: white;
+}
+
+#d3 {
+    background-color: khaki;
+}
+
+.content p {
+    clear: right;
+    padding: 10px;
+}
+
 
 .row {
     width: 100%;
