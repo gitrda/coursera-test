@@ -1,0 +1,59 @@
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+/*NAVBAR-STYLE START*/
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+.navbar {
+  background-color: #ccc;
+  border: 2px solid black;
+}
+
+.li-bottom-border {
+  background-color: black;
+}
+/*NAVBAR-STYLE END*/
+
+/*START PAGE NAME STYLE*/
+.container-fluid h2 {
+  padding: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+/*END PAGE NAME STYLE*/
+
+/*START ARTICLE STYLE*/
+.column {
+  padding: 10px;
+}
+
+.article {
+  background-color: #ccc;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.article h4 {
+  font-weight: 600;
+  text-align: center;
+}
+
+/*END ARTICLE STYLE*/
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .column {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+}
